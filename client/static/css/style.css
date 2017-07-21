@@ -1,0 +1,90 @@
+/**{
+  background-color: black;
+}*/
+
+#navBar {
+  /*background: red;*/
+  /*outline: 1px solid black;*/
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  /*align-content: space-between;*/
+}
+
+.navLeftSide {
+  /*background-color: green;*/
+  max-width: 20%;
+  min-width: 10%;
+  display: flex;
+  justify-content: center;
+  /*outline: 1px solid black;*/
+}
+
+.navRightSide {
+  /*background-color: blue;*/
+  max-width: 90%;
+  min-width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  /*outline: 1px solid black;*/
+}
+
+.navRightSide p {
+  display: flex;
+  /*align-items: flex-end;*/
+  padding: 2%;
+}
+
+/*===========================================================================*/
+/*=============================== Home Page =================================*/
+/*===========================================================================*/
+
+.MainBox{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.MainBox h1{
+  font-size: 3.5em;
+  margin: 5px;
+  text-align: center;
+}
+
+.MainBox h3{
+  font-size: 1.7em;
+  margin: 5px;
+  text-align: center;
+
+}
+
+.text{
+  width: 100%;
+}
+
+.construction{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/*===========================================================================*/
+/*============================== Resume Page ================================*/
+/*===========================================================================*/
+
+.resumeBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resumeDiv {
+  /*margin-left: 4%;*/
+  width: 90%;
+  height: 100vh;
+}
