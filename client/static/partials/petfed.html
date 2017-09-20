@@ -1,0 +1,20 @@
+<div class="petfed" ng-controller='petfedController'>
+
+  <h1 class="centered">Did I Feed The Pets?</h1>
+  <p class="centered">{{ clock }}</p>
+
+
+  <div class="petfedContainer">
+      <button class={{dog.status}} ng-click = "fedDogUpdate()" type="button" name="fedDog">{{dog.content}}
+        <br> <span>{{dog.time}}</span>
+      </button>
+
+      <button class={{cat.status}} ng-click = "fedCatUpdate()" type="button" name="fedCat">{{cat.content}}
+        <br> <span>{{cat.time}}</span>
+      </button>
+
+      <button class={{walked.status}} ng-click = "walkedDogUpdate()" type="button" name="walkedDog">{{walked.content}}
+        <br> <span>{{walked.time}}</span>
+      </button>
+  </div>
+</div>

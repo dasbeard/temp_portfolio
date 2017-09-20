@@ -18,6 +18,10 @@ var app = angular.module('myApp', ['ngRoute']);
         templateUrl: 'static/partials/resume.html',
         controller: 'resumeController'
       })
+      .when('/petfed', {
+        templateUrl: 'static/partials/petfed.html',
+        controller: 'petfedController'
+      })
       .otherwise({
         redirectTo: '/Home'
       })
